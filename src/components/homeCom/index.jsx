@@ -58,7 +58,7 @@ function HomeCom() {
   const addNotification = () => {
     notification.open({
       message: "Success!",
-      description: `Book has been added to your inventory. You can view your book in "Book List" tab.`,
+      description: `Book has been added to your inventory. You can view your book in "Book List" tab after this refreshing page.`,
       icon: <AiFillCheckCircle style={{ color: "rgb(22, 33, 62)" }} />,
     });
   };
